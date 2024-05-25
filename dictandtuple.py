@@ -15,4 +15,5 @@ print(dic[d])
 '''
 dicti = {'info' : [600, 630, 620], 'ril' : [1430, 1490, 1567], 'mtl' : [234,180,160]}
 op = input("enter your choice")
-
+if op.lower() == 'print':
+    print("info ==> ", dicti['info'], "==> avg: ")
